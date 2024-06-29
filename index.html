@@ -20,12 +20,19 @@
             font-family: "Manrope", sans-serif;
             font-optical-sizing: auto;
         }
+        /* @media (min-width: 640px) { 
+            .sticky-note{
+                position: absolute;
+                bottom: -220px;
+                right: 0px;
+            }
+        } */
     </style>
 </head>
 
 <body class="manrope">
     <!-- header -->
-    <header class="container mx-auto">
+    <header class="container mx-auto p-4">
         <div class="navbar bg-base-100">
             <div class="navbar-start">
                 <div class="dropdown">
@@ -69,10 +76,11 @@
                 <a class="btn bg-[#FF4240] text-white">Get Ticket</a>
             </div>
         </div>
-        <div class="hero my-10 rounded-xl lg:min-h-[550px] bg-none relative"
+        <!-- relative -->
+        <div class="hero my-10 rounded-xl lg:min-h-[550px] relative"
             style="background-image: url(Images/1.png);">
             <div class="bg-opacity-60"></div>
-            <div class="hero-content text-neutral-content bg-[#131318] rounded-lg absolute right-8 bottom-8 ">
+            <div class="hero-content text-neutral-content bg-[#131318] rounded-lg lg:absolute relative bottom-[-240px] sticky-note lg:right-8 lg:bottom-8">
                 <div class="max-w-md text-white">
                     <h3 class="mb-5 text-xl font-bold">Meet all the heroes from the field</h3>
                     <p class="mb-5">
@@ -87,7 +95,7 @@
 
     <main class="container mx-auto">
         <!-- Professional Hockeys Club -->
-        <section class="my-24">
+        <section class="my-24 lg:mt-2 mt-60">
             <div class="text-center">
                 <h2 class="text-4xl font-extrabold">Professional Hockeys Club</h2>
                 <p class="p-4">Luckily, there are a wide range of hockey leagues all across the EU depending on your
@@ -135,7 +143,7 @@
             </div>
         </section>
         <!-- Program Sections -->
-        <section>
+        <section class="p-4">
             <div class="text-center ">
                 <h2 class="text-4xl font-extrabold">Program Sections</h2>
                 <p class="p-4">The 2024 Hockey5s World Cup was the first edition of the FIH Men's Hockey5s World <br>
@@ -204,12 +212,13 @@
             </div>
         </section>
         <!-- Our New Products -->
-        <section class="my-20">
+        <section class="my-20 p-4">
             <div class="text-center">
                 <h2 class="py-6 text-4xl font-extrabold">Our New Products</h2>
                 <p class="">Check out our new products.Fully loaded sporty stylish and cool <br>Grab it before stock out
                 </p>
             </div>
+            <!-- products -->
             <div class="grid lg:grid-rows-3 grid-rows-1 lg:grid-flow-col grid-flow-row gap-4 mt-20 justify-center">
                 <!-- product one -->
                 <div
@@ -231,7 +240,7 @@
                             </div>
                         </div>
                         <h3 class="font-bold">World Cup Flags Football</h3>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <p>Buy This from our most exclusive collection</p>
                         <div class="card-actions gap-5">
                             <div class="text-[#FF4240] font-bold">Price - $22.00</div>
                             <div class="text-[#89889b]">
@@ -244,7 +253,7 @@
                 <!-- product two -->
                 <div
                     class="card bg-base-100 w-96 flex-col lg:flex-row lg:w-[573px] border-[1px] rounded-xl border-gray-200">
-                    <img class="lg:pt-6 p-6 sm:ms-8  lg:h-[180px]" src="Images/5.png" alt="Shoes" />
+                    <img class="lg:pt-6 p-6 sm:ms-8  lg:h-[180px]" src="Images/6.png" alt="Shoes" />
                     <div class="card-body">
                         <div class="flex gap-4">
                             <div>
@@ -261,7 +270,7 @@
                             </div>
                         </div>
                         <h3 class="font-bold">World Cup Flags Football</h3>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <p>Buy This from our most exclusive collection</p>
                         <div class="card-actions gap-5">
                             <div class="text-[#FF4240] font-bold">Price - $22.00</div>
                             <div class="text-[#89889b]">
@@ -274,7 +283,7 @@
                 <!-- product three -->
                 <div
                     class="card bg-base-100 w-96 flex-col lg:flex-row lg:w-[573px] border-[1px] rounded-xl border-gray-200">
-                    <img class="lg:pt-6 p-6 sm:ms-8  lg:h-[180px]" src="Images/5.png" alt="Shoes" />
+                    <img class="lg:pt-6 p-6 sm:ms-8  lg:h-[180px]" src="Images/7.png" alt="Shoes" />
                     <div class="card-body">
                         <div class="flex gap-4">
                             <div>
@@ -291,7 +300,7 @@
                             </div>
                         </div>
                         <h3 class="font-bold">World Cup Flags Football</h3>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <p>Buy This from our most exclusive collection</p>
                         <div class="card-actions gap-5">
                             <div class="text-[#FF4240] font-bold">Price - $22.00</div>
                             <div class="text-[#89889b]">
@@ -304,7 +313,7 @@
                 <!-- product four -->
                 <div
                     class="card bg-base-100 w-96 flex-col lg:flex-row lg:w-[573px] border-[1px] rounded-xl border-gray-200">
-                    <img class="lg:pt-6 p-6 sm:ms-8  lg:h-[180px]" src="Images/5.png" alt="Shoes" />
+                    <img class="lg:pt-6 p-6 sm:ms-8  lg:h-[180px]" src="Images/8.png" alt="Shoes" />
                     <div class="card-body">
                         <div class="flex gap-4">
                             <div>
@@ -321,7 +330,7 @@
                             </div>
                         </div>
                         <h3 class="font-bold">World Cup Flags Football</h3>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <p>Buy This from our most exclusive collection</p>
                         <div class="card-actions gap-5">
                             <div class="text-[#FF4240] font-bold">Price - $22.00</div>
                             <div class="text-[#89889b]">
@@ -334,7 +343,7 @@
                 <!-- product five -->
                 <div
                     class="card bg-base-100 w-96 flex-col lg:flex-row lg:w-[573px] border-[1px] rounded-xl border-gray-200">
-                    <img class="lg:pt-6 p-6 sm:ms-8  lg:h-[180px]" src="Images/5.png" alt="Shoes" />
+                    <img class="lg:pt-6 p-6 sm:ms-8  lg:h-[180px]" src="Images/9.png" alt="Shoes" />
                     <div class="card-body">
                         <div class="flex gap-4">
                             <div>
@@ -351,7 +360,7 @@
                             </div>
                         </div>
                         <h3 class="font-bold">World Cup Flags Football</h3>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <p>Buy This from our most exclusive collection</p>
                         <div class="card-actions gap-5">
                             <div class="text-[#FF4240] font-bold">Price - $22.00</div>
                             <div class="text-[#89889b]">
@@ -364,7 +373,7 @@
                 <!-- product six -->
                 <div
                     class="card bg-base-100 w-96 flex-col lg:flex-row lg:w-[573px] border-[1px] rounded-xl border-gray-200">
-                    <img class="lg:pt-6 p-6 sm:ms-8  lg:h-[180px]" src="Images/5.png" alt="Shoes" />
+                    <img class="lg:pt-6 p-6 sm:ms-8  lg:h-[180px]" src="Images/10.png" alt="Shoes" />
                     <div class="card-body">
                         <div class="flex gap-4">
                             <div>
@@ -381,7 +390,7 @@
                             </div>
                         </div>
                         <h3 class="font-bold">World Cup Flags Football</h3>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <p>Buy This from our most exclusive collection</p>
                         <div class="card-actions gap-5">
                             <div class="text-[#FF4240] font-bold">Price - $22.00</div>
                             <div class="text-[#89889b]">
@@ -394,13 +403,13 @@
             </div>
         </section>
         <!-- Clients Question -->
-        <section>
+        <section class="p-4">
             <div class="text-center">
                 <h2 class="font-extrabold text-5xl">Clients Question</h2>
                 <p class="text-gray-500 p-4">The most common questions asked by our clients.Here you can check this out!
                 </p>
             </div>
-            <div class="flex mt-5 gap-4 items-center">
+            <div class="flex flex-col lg:flex-row mt-5 gap-4 items-center justify-center">
                 <div>
                     <img src="Images/11.png" alt="">
                 </div>
@@ -450,7 +459,139 @@
                 </div>
             </div>
         </section>
+        <!-- Get In Touch -->
+        <section>
+            <div class="text-center">
+                <h2 class="text-5xl">Get In Touch</h2>
+                <p class="p-4">You can simply contact with us by filling this form. <br>
+                    Why hesitate contact us now
+                </p>
+            </div>
+            <div class="flex gap-6 flex-col lg:flex-row justify-center items-center">
+                <!-- contact -->
+                <div class="p-10">
+                    <div class="bg-[#BCED6D] lg:w-[374px] flex flex-col px-16 bg-opacity-30 gap-2 rounded-xl">
+                        <img class="w-[48px] mt-10" src="Images/Group 1171275317.png" alt="">
+                        <span class="text-gray-400 mt-8">Phone Number : </span>
+                        <span class="font-extrabold mb-10">(+62) 123-321-543</span>
+                    </div>
+                    <div class="bg-[#FDDD5F] lg:w-[374px] flex flex-col px-16 bg-opacity-30 gap-2 rounded-xl mt-6">
+                        <img class="w-[48px] mt-10" src="Images/Group 1171275318.png" alt="">
+                        <span class="text-gray-400 mt-8">Email : </span>
+                        <span class="font-extrabold mb-10">hockeys@support.com</span>
+                    </div>
+                    <div class="bg-[#629CF3] lg:w-[374px] flex flex-col px-16 bg-opacity-30 gap-2 rounded-xl mt-6">
+                        <img class="w-[48px] mt-10" src="Images/Group 1171275317.png" alt="">
+                        <span class="text-gray-400 mt-8">Location : </span>
+                        <span class="font-extrabold mb-10">152/1 Mohakhali Wireless Gate</span>
+                    </div>
+                </div>
+                <!-- form -->
+                <div class="grid lg:grid-rows-2 grid-rows-1 gap-4 lg:h-[650px]">
+                    <div class="lg:col-span-1 col-span-2">
+                        <label class="form-control w-full">
+                            <div class="label">
+                                <span class="label-text font-bold">Your Name</span>
+                            </div>
+                            <input type="text" placeholder="Type here"
+                                class="input input-bordered lg:w-[324px] bg-[#131318] bg-opacity-[3%]" />
+                        </label>
+                    </div>
+                    <div class="lg:col-span-1 col-span-2">
+                        <label class="form-control w-full">
+                            <div class="label">
+                                <span class="label-text font-bold">Your Name</span>
+                            </div>
+                            <input type="text" placeholder="Type here"
+                                class="input input-bordered lg:w-[324px] bg-[#131318] bg-opacity-[3%]" />
+                        </label>
+                    </div>
+                    <div class="lg:col-span-1 col-span-2">
+                        <label class="form-control w-full">
+                            <div class="label">
+                                <span class="label-text font-bold">Subject</span>
+                            </div>
+                            <input type="text" placeholder="Type here"
+                                class="input input-bordered lg:w-[324px] bg-[#131318] bg-opacity-[3%]" />
+                        </label>
+                    </div>
+                    <div class="lg:col-span-1 col-span-2">
+                        <label class="form-control w-full">
+                            <div class="label">
+                                <span class="label-text font-bold">Phone Number</span>
+                            </div>
+                            <input type="text" placeholder="Type here"
+                                class="input input-bordered lg:w-[324px] bg-[#131318] bg-opacity-[3%]" />
+                        </label>
+                    </div>
+                    <div class="col-span-2">
+                        <label class="form-control w-full">
+                            <div class="label">
+                                <span class="label-text font-bold">Your Message</span>
+                            </div>
+                            <textarea
+                                class="textarea textarea-bordered lg:w-[672px] lg:h-[370px] bg-[#131318] bg-opacity-[3%]"
+                                placeholder="Write Your Massage"></textarea>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Social Media -->
+        <section class="bg-[#131318] bg-opacity-[3%] p-7 rounded-xl mt-10">
+            <h3 class="text-center text-2xl font-extrabold">Social Media</h3>
+            <div class="flex items-center justify-center gap-4">
+                <div>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div>
+                    <i class="fa-brands fa-github"></i>
+                </div>
+            </div>
+        </section>
     </main>
+    <!-- footer -->
+    <footer class="footer bg-black text-white p-28 mt-10">
+        <aside>
+            <h2 class="text-2xl font-extrabold">Get In Touch</h2>
+            <p>
+                152/1 Mohakhali Wireless Gate
+            </p>
+            <div>
+                <div><i class="fa-solid fa-envelope" style="color:#FF4240"></i> hockeys@support.com</div>
+                <div><i class="fa-solid fa-phone" style="color:#FF4240"></i> (+62) 123-321-543</div>
+            </div>
+        </aside>
+        <nav>
+            <h6 class="font-bold text-lg text-white">SERVICES</h6>
+            <a class="link link-hover text-[#FFFFFF] opacity-30">About Us</a>
+            <a class="link link-hover text-[#FFFFFF] opacity-30">Leadership</a>
+            <a class="link link-hover text-[#FFFFFF] opacity-30">Career</a>
+            <a class="link link-hover text-[#FFFFFF] opacity-30">News & Article</a>
+            <a class="link link-hover text-[#FFFFFF] opacity-30">Legal Notice</a>
+        </nav>
+        <nav>
+            <h6 class="font-bold text-lg text-white">SUPPORT</h6>
+            <a class="link link-hover text-[#FFFFFF] opacity-30">Help Center</a>
+            <a class="link link-hover text-[#FFFFFF] opacity-30">FAQ</a>
+            <a class="link link-hover text-[#FFFFFF] opacity-30">Ticket Support</a>
+            <a class="link link-hover text-[#FFFFFF] opacity-30">Contact Us</a>
+        </nav>
+        <nav>
+            <h6 class="font-bold text-lg text-white">Services</h6>
+            <a class="link link-hover text-[#FFFFFF] opacity-30">Academy</a>
+            <a class="link link-hover text-[#FFFFFF] opacity-30">Group Lesson</a> 
+            <a class="link link-hover text-[#FFFFFF] opacity-30">Private Lesson</a> 
+            <a class="link link-hover text-[#FFFFFF] opacity-30">Hockeys for kids</a>  
+            <a class="link link-hover text-[#FFFFFF] opacity-30">Hockeys for Adult</a>  
+        </nav>
+    </footer>
 </body>
 
 </html>
